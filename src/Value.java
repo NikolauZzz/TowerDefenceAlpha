@@ -1,5 +1,3 @@
-
-
 public class Value {
 	public static int groundGrass = 0;
 	public static int groundRoad = 1;
@@ -10,4 +8,6 @@ public class Value {
 	public static int airTowerLaser = 2;
 	public static int mobAir = -1; //mobs na etom urovne
 	public static int mobGreeny = 0; // zelenyi mob, ego ID=0
+	
+	public static int[] deathReward = {5}; // money for death
 }
